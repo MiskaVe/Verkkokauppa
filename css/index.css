@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(155, 186, 255);
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    background-color: rgba(0, 155, 182, 0.5);
+    border: 2px solid black;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1%;
+}
+main {
+    margin-top: 1%;
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 75%;
+    border: 2px solid black;
+}
+#haku {
+    align-self: flex-end;
+    width: 10%;
+    border: 2px solid black;
+}
+#logo {
+    height: auto;
+    width: 10%;
+}
+#tuotekuva {
+    display: block;
+    width: 33.33%;
+    border: 2px solid black;
+}
+#linkki {
+    height: auto;
+    width: 11.11%;
+    padding: 0.5%;
+    border: 2px solid black;
+}
+#linkki:hover {
+    color: white;
+    padding: 1%;
+}
+footer {
+    margin-top: 25.75%;
+    border: 2px solid black;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    background-color: rgba(0, 155, 182, 0.5);
+}
