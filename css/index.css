@@ -22,12 +22,8 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 1%;
+    margin-top: 5%;
     margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     padding: 1%;
     width: 80%;
     border: 2px solid black;
@@ -68,19 +64,27 @@ main {
     transition: 0.5s;
 }
 footer {
-    margin-top: 25.75%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     border: 2px solid black;
     padding: 1%;
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
     background-color: rgba(0, 155, 182, 0.5);
 }
-#grid {
+#vasen {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: 2px solid black;
-    text-align: center;
+    border: 1px solid black;
+    margin-top: 1%;
+}
+#oikea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+    margin-top: 1%;  
+}
+#vasen>img {
     width: 20%;
 }
