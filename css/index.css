@@ -2,11 +2,12 @@ body {
     background-color: rgb(155, 186, 255);
     margin: 0;
     box-sizing: border-box;
+    min-height: 200vh;
 }
 header{
     display: flex;
     flex-direction: row;
-    align-content: space-around;
+    align-items: flex-end;
     border: 2px solid black;
     background: rgb(130,125,255);
     background: linear-gradient(90deg, rgba(130,125,255,1) 0%, rgba(175,174,255,1) 15%, rgba(138,138,255,1) 35%, rgba(138,138,255,1) 65%, rgba(175,174,255,1) 85%, rgba(130,125,255,1) 100%);
@@ -33,13 +34,17 @@ main {
     font-size: larger;
 }
 #haku {
-    align-self: flex-end;
     width: 10%;
-    margin-right: 7.8%;
     transition: 0.5s;
     padding: 0.5%;
     height: auto;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+#kori>img {
+    margin-left: 18%;
+    margin-bottom: -2%;
+    width: 25%;
+    border: 1px solid black;
 }
 #logo {
     height: auto;
@@ -48,7 +53,7 @@ main {
 }
 .linkki {
     height: auto;
-    width: 13%;
+    width: 15%;
     transition: 0.5s;
     padding: 0.5%;
     border: 2px solid black;
@@ -69,22 +74,50 @@ footer {
     width: 100%;
     border: 2px solid black;
     padding: 1%;
-    background-color: rgba(0, 155, 182, 0.5);
+    background: rgb(130,125,255);
+    background: linear-gradient(90deg, rgba(130,125,255,1) 0%, rgba(175,174,255,1) 15%, rgba(138,138,255,1) 35%, rgba(138,138,255,1) 65%, rgba(175,174,255,1) 85%, rgba(130,125,255,1) 100%);
+    font-size: larger;
 }
-#vasen {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    border: 1px solid black;
+#tuote1 {
     margin-top: 1%;
+    border: 2px solid black;
+    width: 25%;
+
 }
-#oikea {
+#tuote2 {
+    margin-top: 1%;
+    border: 2px solid black;
+    width: 25%;
+}
+#tuote3 {
+    margin-top: 1%;
+    border: 2px solid black;
+    width: 25%;
+}
+#tuote1>img {
+    display: block;
+    width: 100%;
+}
+#tuote2>img {
+    display: block;
+    width: 100%;
+}
+#tuote3>img {
+    display: block;
+    width: 100%;
+}
+#yksi {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: 1px solid black;
-    margin-top: 1%;  
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-#vasen>img {
-    width: 20%;
+#kaksi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#kolme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
