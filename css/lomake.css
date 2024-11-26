@@ -22,14 +22,11 @@ nav {
 }
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 5%;
-    margin-left: 10%;
-    padding: 1%;
-    width: 80%;
-    border: 2px solid black;
-}
-h1 {
+    margin-left: 23%;
+    padding: 2%;
+    width: 50%;
     border: 2px solid black;
 }
 #haku:focus {
@@ -80,85 +77,4 @@ footer {
     background: rgb(130,125,255);
     background: linear-gradient(90deg, rgba(130,125,255,1) 0%, rgba(175,174,255,1) 15%, rgba(138,138,255,1) 35%, rgba(138,138,255,1) 65%, rgba(175,174,255,1) 85%, rgba(130,125,255,1) 100%);
     font-size: larger;
-}
-#tuote1 {
-    margin-top: 1%;
-    width: 33.33%;
-    padding: 1%;
-    border: 1px solid black;
-}
-#tuote2 {
-    margin-top: 1%;
-    width: 33.33%;
-    padding: 1%;
-    border: 1px solid black;
-
-}
-#tuote3 {
-    margin-top: 1%;
-    width: 33.33%;
-    padding: 1%;
-    border: 1px solid black;
-}
-#tuote1>img {
-    display: block;
-    width: 100%;
-}
-#tuote2>img {
-    display: block;
-    width: 100%;
-}
-#tuote3>img {
-    display: block;
-    width: 100%;
-}
-#yksi {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#kaksi {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#kolme {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#oikea {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-}
-#vasen {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    width: 15%;
-    padding: 1%;
-}
-li {
-    list-style: none;
-}
-ul>a {
-    border: 1px solid black;
-    font-size: 20px;
-    padding: 1%;
-    text-decoration: none;
-    transition: 0.5s;
-}
-ul>a:hover {
-    transition: 0.5s;
-    color: white;
-    padding: 5%;
-}
-.section-title {
-    font-size: 25px;
-    margin-top: 1%;
-    text-decoration: underline;
-}
-img {
-    width: 20%;
 }
