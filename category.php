@@ -59,7 +59,7 @@
                         </div>
                         <div class = tuotenimi>
                             <p class="title">
-                                <a href="product.php"><?php echo urlencode($product['title'])?></a>
+                                <a href="product.php"><?php echo ($product['title'])?></a>
                             </p>
                             <p class="description">
                                 <?php echo $product['description']?>

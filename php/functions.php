@@ -40,11 +40,11 @@
     function getProductByTitle($title){
         $mysqli = dbConnect();
 
-        $stmt = $mysqli->prepare("SELECT * FROM tuotteet WHERE title = ?");
-        $stmt->bind_param("s", $title);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        $data = $result->fetch_all(MYSSQL_ASSOC);
+        $smtp = $mysqli->prepare("SELECT * FROM tuotteet WHERE title = ?");
+        $smtp->bind_param("s", $title);
+        $smtp->execute();
+        $result = $smtp->get_result();
+        $data = $result->fetch_all(MYSQLI_ASSOC);
         return $data;
     }
 ?>
