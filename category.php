@@ -30,8 +30,8 @@
     <main>
         <div id="vasen">
             <div class="section-title">Tuotekategoriat</div>
-            <?php $categories = getCategories() ?>
-            <?php 
+            <?php $categories = getCategories();
+            
                 foreach($categories as $category){
                     ?>
                     
